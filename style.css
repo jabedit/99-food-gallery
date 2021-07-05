@@ -15,6 +15,12 @@ h2{
     line-height: 60px;
     letter-spacing: -2%;
 }
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -2%;i
+}
 .flexible-container{
     display: flex;
     padding: 60px 0 60px 0;
@@ -68,4 +74,22 @@ padding: 0;
 
 .about-section p {
     padding-bottom: 40px;
+}
+/*---end Food-banner css--*/
+
+/*---start recpie-section css--*/
+.recipie-all-item{
+    display: flex;
+    padding:0 5% 0 5%;
+}
+.recipie-item{
+    padding: 20px 20px 20px 20px;
+    margin: 0 20px 0 20px;
+    box-shadow: 5px 5px 20px  gray;
+    border-radius:20px;
+
+}
+.recipie-item img{
+    width: 100%;
+   
 }
