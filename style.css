@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -2%;
+    
+}
+.flexible-container{
+    display: flex;
+    padding: 80px 0 80px 0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+letter-spacing: -0.02em;
+padding: 0;
+
+}
+/*---star Food-banner css--*/
+.half-width img{
+    width: 100%;
+}
+.food-button{
+    text-decoration: none;
+    border-radius: 50px;
+    background-image:linear-gradient(rgb(10, 110, 204), rgb(0, 217, 255));
+    padding:21px 29px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 40px;
+    display: inline-block;
+    
+}
+/*---end Food-banner css--*/
+
+/*---start Food-banner css--*/
