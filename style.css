@@ -32,15 +32,57 @@ h3{
     padding-right: 5%;
 }
 p{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 160%;
-letter-spacing: -0.02em;
-padding: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    padding: 0;
 
 }
+.header-section{
+    display: flex;
+    padding: 2% 5% 0 5%;
+    
+}
+.header-first{
+    width: 40%;
+    font-family: 'Tourney', cursive;
+}
+.header-first a{
+    text-decoration: underline;
+    font-family: 'Tourney', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color :rgb(10, 110, 204);
+    padding-top:20px;
+
+}
+/*-------start  header section css ---*/
+
+.header-second{
+    width: 60%;
+}
+.header-second ul{
+    list-style: none;
+    text-align: right;
+}
+.header-second ul li{
+    display: inline;
+    text-align-last: right;
+}
+.header-second ul li a {
+    color: rgb(10, 110, 204);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  /*----End  header section css ---*/
+
+  
 /*---star Food-banner css--*/
 .half-width img{
     width: 100%;
