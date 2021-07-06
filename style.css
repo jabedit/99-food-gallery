@@ -8,6 +8,7 @@ h1{
     line-height: 70px;
     letter-spacing: -2%;
     
+    
 }
 h2{
     font-size: 40px;
@@ -19,7 +20,7 @@ h3{
     font-size: 30px;
     font-weight: 600;
     line-height: 45px;
-    letter-spacing: -2%;i
+    letter-spacing: -2%;
 }
 .flexible-container{
     display: flex;
@@ -28,6 +29,7 @@ h3{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 p{
 font-family: Montserrat;
@@ -80,7 +82,8 @@ padding: 0;
 /*---start recpie-section css--*/
 .recipie-all-item{
     display: flex;
-    padding:0 5% 0 5%;
+    padding:3% 3% 0 3%;
+    
 }
 .recipie-item{
     padding: 20px 20px 20px 20px;
@@ -92,4 +95,30 @@ padding: 0;
 .recipie-item img{
     width: 100%;
    
+}
+/*---End recpie-section css--*/
+
+
+/*---start rsubscribe-section css--*/
+.subscribe-section{
+    margin:8% 5% 5% 5%;
+    box-shadow: 5px 5px 20px  gray;
+    border-radius:20px;
+}
+.subscribe-socail-media{
+    width: 33.3%;
+    text-align: center;
+    
+}
+
+/*---End rsubscribe-section css--*/
+
+.footer-section{
+    background-color: rgb(17, 17, 20);
+}
+.footer-section h1{
+    color: white;
+    text-align: center;
+    
+
 }
